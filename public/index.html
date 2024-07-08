@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Chronicle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weekend in Iran Chronicle</h1>
+    <form id="email-form" action="/submit" method="POST">
+      <label for="email">Enter email to receive the travel chronicle:</label><br><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <div id="success-message" class="hidden">
+      "A Weekend in Tehran" has been sent.
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
